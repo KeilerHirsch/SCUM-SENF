@@ -1,39 +1,32 @@
+<div align="center">
+
 # SCUM-SENF
+### SCUM Server Event & Notification Framework
 
-![SCUM-SENF — SCUM Server Event & Notification Framework](docs/assets/scum-senf-hero.webp)
+**Telemetry over guessing.**
 
-**SCUM Server Event & Notification Framework**
+<img src="docs/assets/scum-senf-hero.webp" alt="SCUM-SENF promotional artwork for server observability, events and notifications" width="100%">
 
-Open-source operational tooling for SCUM servers. **Telemetry over guessing.**
+</div>
 
-## Status
+## The Mission
 
-Foundation only. FuE/research and architecture are **not frozen yet**.  
-No production-ready release exists.
+**A crashed server shouldn't be the first thing your players report.**
 
-## Direction
+Keeping a SCUM server running takes more than restarting it when something breaks. Operators need to understand service health, important events, failures and recovery — without piecing the story together from scattered logs.
 
-- observe server and service health
-- normalize useful events and alerts
-- retain crash, restart and backup evidence
-- expose status/notifications for Discord and APIs
+SCUM-SENF is being designed as an open-source foundation for **server observations, events and alerts**, with future integrations for notifications and operational tools.
 
-Details stay intentionally open until FuE is complete.
+**Know what happened. Know what changed. Know what needs attention.**
 
-## Contributing
+## Project status
 
-Start with [AGENTS.md](AGENTS.md) and [CONTRIBUTING.md](CONTRIBUTING.md).  
-Security reports: [SECURITY.md](SECURITY.md).
+**Research and foundation stage.** Architecture and feature scope are not final. Server integrations and notifications are goals, **not currently supported product capabilities**. No production-ready release is available.
 
-## Support
+### Follow the project
 
-SCUM-SENF is free and community-supported.  
-Voluntary support: [Ko-fi](https://ko-fi.com/keilerhirsch).
+[**Issues & ideas**](https://github.com/KeilerHirsch/SCUM-SENF/issues) · [**Contributing**](CONTRIBUTING.md) · [**Security reporting**](SECURITY.md)
 
-## License
+---
 
-[EUPL-1.2](LICENSE)
-
-## Disclaimer
-
-SCUM-SENF is an unofficial community project and is not affiliated with or endorsed by the developers or publishers of SCUM. Names and marks belong to their respective owners.
+<sub>Independent community project, not affiliated with the developers or publishers of SCUM. [EUPL-1.2 licence](LICENSE) · [Voluntary support](https://ko-fi.com/keilerhirsch)</sub>
